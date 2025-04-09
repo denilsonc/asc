@@ -35,7 +35,7 @@ serial = SerialCommunication(port=port,
 serial.start()
 
 
-pds = Processamento(vin=12, tensao_base=4.682)
+pds = Processamento(delta=0.00457, vin=12, tensao_base=4.682)
 
 
 tick = time.time()
